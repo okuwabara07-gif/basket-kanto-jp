@@ -15,7 +15,7 @@ export async function POST(req: NextRequest) {
         max_tokens: 300,
         messages: [{
           role: 'user',
-          content: `ジュニアサッカー選手への栄養アドバイスを100文字以内で。${timing || ''}・ポジション:${position || '不明'}・${grade || ''}。具体的な食事例を1つ含めてください。`
+          content: `ジュニアバスケットボール選手への栄養アドバイスを100文字以内で。${timing || ''}・ポジション:${position || '不明'}・${grade || ''}。具体的な食事例を1つ含めてください。`
         }]
       })
     })

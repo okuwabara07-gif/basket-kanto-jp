@@ -15,7 +15,7 @@ export async function POST(req: NextRequest) {
         max_tokens: 400,
         messages: [{
           role: 'user',
-          content: `ジュニアサッカーのルールや用語について簡潔に答えてください（100文字以内）。質問：${question}`
+          content: `ジュニアバスケットボールのルールや用語について簡潔に答えてください（100文字以内）。質問：${question}`
         }]
       })
     })

@@ -94,7 +94,7 @@ export default function NutritionPage() {
             <div style={{position:'absolute',bottom:16,left:16,right:16}}>
               <Link href="/" style={{color:'rgba(255,255,255,0.5)',fontSize:12,textDecoration:'none',display:'block',marginBottom:6}}>← 戻る</Link>
               <h1 style={{color:'white',fontSize:22,fontWeight:300,marginBottom:2}}>栄養・補助食品</h1>
-              <p style={{color:'rgba(255,255,255,0.5)',fontSize:11}}>ジュニアサッカー選手のための栄養完全ガイド</p>
+              <p style={{color:'rgba(255,255,255,0.5)',fontSize:11}}>ジュニアバスケットボール選手のための栄養完全ガイド</p>
             </div>
           </div>
         </div>
@@ -166,7 +166,7 @@ export default function NutritionPage() {
 
           {tab==='ranking' && (
             <div style={{display:'flex',flexDirection:'column',gap:10}}>
-              <p style={{fontSize:11,color:'#888',marginBottom:4}}>ジュニアサッカー選手におすすめのサプリメントランキングです。</p>
+              <p style={{fontSize:11,color:'#888',marginBottom:4}}>ジュニアバスケットボール選手におすすめのサプリメントランキングです。</p>
               {SUPPLEMENTS.map((s,i)=>(
                 <div key={s.rank} style={{background:'white',borderRadius:12,border:'1px solid #eeeeea',padding:'12px 14px'}}>
                   <div style={{display:'flex',gap:10,alignItems:'flex-start',marginBottom:8}}>
@@ -202,7 +202,7 @@ export default function NutritionPage() {
 
           {tab==='snack' && (
             <div style={{display:'flex',flexDirection:'column',gap:10}}>
-              <p style={{fontSize:11,color:'#888',marginBottom:4}}>サッカー選手に最適な間食・おやつを選びましょう。</p>
+              <p style={{fontSize:11,color:'#888',marginBottom:4}}>バスケットボール選手に最適な間食・おやつを選びましょう。</p>
               <div style={{background:'#fff8e6',borderRadius:12,border:'1px solid #ffe082',padding:'12px 14px',marginBottom:4}}>
                 <p style={{fontSize:11,fontWeight:600,color:'#856404',marginBottom:4}}>💡 間食の基本ルール</p>
                 <p style={{fontSize:10,color:'#666',lineHeight:1.7}}>練習前は消化の良い糖質・練習後はタンパク質重視・寝る前はカルシウムを意識しましょう。</p>

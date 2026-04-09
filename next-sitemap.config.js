@@ -1,9 +1,9 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://soccer-tokyo-jp.vercel.app',
+  siteUrl: 'https://basket-tokyo-jp.vercel.app',
   generateRobotsTxt: true,
   robotsTxtOptions: {
-    additionalSitemaps: ['https://soccer-tokyo-jp.vercel.app/sitemap.xml'],
+    additionalSitemaps: ['https://basket-tokyo-jp.vercel.app/sitemap.xml'],
   },
   changefreq: 'daily',
   priority: 0.7,

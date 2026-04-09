@@ -44,7 +44,7 @@ export default function MyPage() {
       if (body) { try { const b=JSON.parse(body); ctx.push(`身長${b.h}cm体重${b.w}kg`) } catch {} }
       const res = await fetch('/api/mypage-advice', {
         method:'POST', headers:{'Content-Type':'application/json'},
-        body: JSON.stringify({context: ctx.join('、') || 'ジュニアサッカー選手'})
+        body: JSON.stringify({context: ctx.join('、') || 'ジュニアバスケットボール選手'})
       })
       const data = await res.json()
       setAiAdvice(data.advice || '')

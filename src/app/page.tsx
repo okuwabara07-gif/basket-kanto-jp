@@ -77,7 +77,7 @@ export default function HomePage() {
 
       {/* ヒーローセクション */}
       <div style={{position:'relative',height:'100svh',maxHeight:700,overflow:'hidden'}}>
-        <img key={heroIdx} src={hero.url} alt="サッカー"
+        <img key={heroIdx} src={hero.url} alt="バスケットボール"
           style={{width:'100%',height:'100%',objectFit:'cover',objectPosition:hero.pos,
             animation:'fadeIn 1s ease-in-out'}}/>
         <div style={{position:'absolute',inset:0,background:'linear-gradient(to bottom,rgba(0,0,0,0.3) 0%,rgba(10,10,10,0.95) 100%)'}}>
@@ -88,7 +88,7 @@ export default function HomePage() {
             <div>
               <p style={{color:'rgba(255,255,255,0.5)',fontSize:9,letterSpacing:'0.15em',marginBottom:2}}>KANTO FOOTBALL DATABASE</p>
               <p style={{color:'white',fontSize:13,fontWeight:700,lineHeight:1.2}}>
-                サッカー東京・神奈川<br/>埼玉・千葉
+                バスケットボール東京・神奈川<br/>埼玉・千葉
               </p>
             </div>
             <Link href="/member"
@@ -108,7 +108,7 @@ export default function HomePage() {
             </h1>
             <p style={{color:'rgba(255,255,255,0.75)',fontSize:14,fontWeight:600,lineHeight:1.6,
               textShadow:'0 1px 4px rgba(0,0,0,0.8)'}}>
-              東京・関東のサッカー情報を<br/>ひとつにまとめたプラットフォーム
+              東京・関東のバスケットボール情報を<br/>ひとつにまとめたプラットフォーム
             </p>
           </div>
 
@@ -182,7 +182,7 @@ export default function HomePage() {
       {/* ジュニア・ジュニアユース向けバナー */}
       <div style={{margin:'12px 16px 0',borderRadius:14,overflow:'hidden',position:'relative'}}>
         <img src="https://images.unsplash.com/photo-1529900748604-07564a03e7a6?w=800&q=80"
-          alt="ジュニアサッカー" style={{width:'100%',height:120,objectFit:'cover',objectPosition:'center 30%',display:'block'}}/>
+          alt="ジュニアバスケットボール" style={{width:'100%',height:120,objectFit:'cover',objectPosition:'center 30%',display:'block'}}/>
         <div style={{position:'absolute',inset:0,background:'linear-gradient(135deg,rgba(76,175,80,0.85),rgba(45,106,79,0.85))',
           display:'flex',alignItems:'center',padding:'0 16px',gap:12}}>
           <div style={{flex:1}}>
@@ -248,7 +248,7 @@ export default function HomePage() {
             {href:'/position',emoji:'🎯',title:'ポジション別資料',desc:'練習方法・有名選手・季節アイテム',color:'#534AB7'},
             {href:'/calendar',emoji:'📅',title:'セレクションカレンダー',desc:'締切情報・申込URL',color:'#185FA5'},
             {href:'/matching',emoji:'🤝',title:'チームマッチング',desc:'7つの質問で最適チームを提案（会員限定）',color:'#4CAF50'},
-            {href:'/manga',emoji:'📚',title:'サッカー漫画ランキング',desc:'少年に読ませたいおすすめ漫画TOP5',color:'#e63946'},
+            {href:'/manga',emoji:'📚',title:'バスケットボール漫画ランキング',desc:'少年に読ませたいおすすめ漫画TOP5',color:'#e63946'},
           ].map(item=>(
             <Link key={item.href} href={item.href}
               style={{display:'flex',alignItems:'center',gap:12,padding:'12px 14px',
@@ -286,13 +286,13 @@ export default function HomePage() {
         </div>
       </div>
 
-      {/* サッカー用品・スパイクおすすめ */}
+      {/* バスケットボール用品・スパイクおすすめ */}
       <div style={{margin:'0 16px 16px',padding:'16px',background:'#111',borderRadius:14,border:'1px solid rgba(255,255,255,0.08)'}}>
         <p style={{fontSize:'10px',color:'rgba(255,255,255,0.4)',letterSpacing:'0.15em',marginBottom:12,textAlign:'center'}}>PR・おすすめサービス</p>
         <div style={{display:'flex',flexDirection:'column',gap:'10px',alignItems:'center'}}>
           {/* Renta! 漫画レンタル */}
           <div style={{textAlign:'center'}}>
-            <p style={{fontSize:'11px',color:'rgba(255,255,255,0.5)',marginBottom:'6px'}}>サッカー漫画をレンタルで読む</p>
+            <p style={{fontSize:'11px',color:'rgba(255,255,255,0.5)',marginBottom:'6px'}}>バスケットボール漫画をレンタルで読む</p>
             <a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3767207&pid=892590463"
               target="_blank" rel="nofollow noopener noreferrer sponsored"
               style={{display:'inline-block'}}>
@@ -315,13 +315,13 @@ export default function HomePage() {
 
       {/* Amazon用品ショッピング */}
       <div style={{margin:'0 16px 16px',padding:'16px',background:'#111',borderRadius:14,border:'1px solid rgba(255,180,0,0.2)'}}>
-        <p style={{fontSize:10,color:'rgba(255,255,255,0.4)',letterSpacing:'0.15em',marginBottom:12}}>SOCCER GOODS</p>
+        <p style={{fontSize:10,color:'rgba(255,255,255,0.4)',letterSpacing:'0.15em',marginBottom:12}}>BASKET GOODS</p>
         <div style={{display:'grid',gridTemplateColumns:'repeat(4,1fr)',gap:6}}>
           {[
-            {e:'👟',l:'スパイク',k:'ジュニア サッカー スパイク'},
-            {e:'⚽',l:'ボール',k:'サッカーボール 5号'},
-            {e:'👕',l:'ユニフォーム',k:'ジュニア サッカー ユニフォーム'},
-            {e:'🚩',l:'審判グッズ',k:'サッカー 審判 グッズ'},
+            {e:'👟',l:'スパイク',k:'ジュニア バスケットボール スパイク'},
+            {e:'⚽',l:'ボール',k:'バスケットボールボール 5号'},
+            {e:'👕',l:'ユニフォーム',k:'ジュニア バスケットボール ユニフォーム'},
+            {e:'🚩',l:'審判グッズ',k:'バスケットボール 審判 グッズ'},
           ].map(item=>(
             <a key={item.k}
               href={`https://www.amazon.co.jp/s?k=${encodeURIComponent(item.k)}&tag=haircolorab22-22`}
@@ -340,7 +340,7 @@ export default function HomePage() {
         <p style={{fontSize:10,color:'rgba(255,255,255,0.4)',letterSpacing:'0.15em',marginBottom:12}}>SNS・シェア</p>
 
         {/* Instagramフォローバナー */}
-        <a href="https://www.instagram.com/soccer_kanto_jp/"
+        <a href="https://www.instagram.com/basket_kanto_jp/"
           target="_blank" rel="noopener noreferrer"
           style={{display:'flex',alignItems:'center',gap:12,padding:'12px 14px',
             background:'linear-gradient(135deg,#833ab4,#fd1d1d,#fcb045)',
@@ -348,8 +348,8 @@ export default function HomePage() {
           <div style={{width:36,height:36,borderRadius:'50%',background:'rgba(255,255,255,0.2)',
             display:'flex',alignItems:'center',justifyContent:'center',fontSize:20,flexShrink:0}}>📸</div>
           <div style={{flex:1}}>
-            <p style={{fontSize:13,fontWeight:700,color:'white',marginBottom:2}}>@soccer_kanto_jp</p>
-            <p style={{fontSize:10,color:'rgba(255,255,255,0.8)'}}>関東ジュニアサッカー情報局 公式Instagram</p>
+            <p style={{fontSize:13,fontWeight:700,color:'white',marginBottom:2}}>@basket_kanto_jp</p>
+            <p style={{fontSize:10,color:'rgba(255,255,255,0.8)'}}>関東ジュニアバスケットボール情報局 公式Instagram</p>
           </div>
           <span style={{color:'rgba(255,255,255,0.7)',fontSize:16}}>›</span>
         </a>
@@ -357,14 +357,14 @@ export default function HomePage() {
         {/* LINE・Twitter シェアボタン */}
         <p style={{fontSize:10,color:'rgba(255,255,255,0.3)',marginBottom:8}}>このサイトをシェア</p>
         <div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:8}}>
-          <a href="https://line.me/R/msg/text/?関東ジュニアサッカー情報局%0a東京・関東のサッカーチームをAIで検索%0ahttps://soccer-tokyo-jp.vercel.app"
+          <a href="https://line.me/R/msg/text/?関東ジュニアバスケットボール情報局%0a東京・関東のバスケットボールチームをAIで検索%0ahttps://basket-tokyo-jp.vercel.app"
             target="_blank" rel="noopener noreferrer"
             style={{display:'flex',alignItems:'center',justifyContent:'center',gap:8,
               padding:'10px',borderRadius:10,background:'#06C755',
               textDecoration:'none',color:'white',fontSize:12,fontWeight:700}}>
             <span style={{fontSize:16}}>💬</span> LINEで送る
           </a>
-          <a href="https://twitter.com/intent/tweet?text=関東のジュニアサッカーチームを検索できます⚽&url=https://soccer-tokyo-jp.vercel.app&hashtags=ジュニアサッカー,少年サッカー,関東サッカー"
+          <a href="https://twitter.com/intent/tweet?text=関東のジュニアバスケットボールチームを検索できます⚽&url=https://basket-tokyo-jp.vercel.app&hashtags=ジュニアバスケットボール,少年バスケットボール,関東バスケットボール"
             target="_blank" rel="noopener noreferrer"
             style={{display:'flex',alignItems:'center',justifyContent:'center',gap:8,
               padding:'10px',borderRadius:10,background:'#1DA1F2',
@@ -376,7 +376,7 @@ export default function HomePage() {
 
       {/* フッター */}
       <div style={{padding:'16px',borderTop:'1px solid rgba(255,255,255,0.05)',textAlign:'center'}}>
-        <p style={{fontSize:10,color:'rgba(255,255,255,0.2)'}}>© 2026 関東ジュニアサッカー情報局</p>
+        <p style={{fontSize:10,color:'rgba(255,255,255,0.2)'}}>© 2026 関東ジュニアバスケットボール情報局</p>
         <p style={{fontSize:9,color:'rgba(255,255,255,0.15)',marginTop:4}}>本サイトはアフィリエイト広告を含みます</p>
       </div>
 

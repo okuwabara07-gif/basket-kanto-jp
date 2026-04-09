@@ -113,7 +113,7 @@ export default function ShoesPage() {
   const [selectedBrand, setSelectedBrand] = useState<any>(null)
 
   const share = (item: any) => {
-    const text = `${item.name}（${item.brand}）${item.price} - おすすめ！ → https://soccer-tokyo-jp.vercel.app/shoes`
+    const text = `${item.name}（${item.brand}）${item.price} - おすすめ！ → https://basket-tokyo-jp.vercel.app/shoes`
     if (navigator.share) navigator.share({title:'シューズ情報',text})
     else { navigator.clipboard.writeText(text); alert('コピーしました！') }
   }
@@ -332,9 +332,9 @@ export default function ShoesPage() {
           )}
         </div>
       </div>
-      {/* サッカー用品 Amazon購入リンク */}
+      {/* バスケットボール用品 Amazon購入リンク */}
       <div style={{padding:'0 16px 24px'}}>
-        <p style={{fontSize:10,color:'rgba(255,255,255,0.4)',letterSpacing:'0.15em',marginBottom:12}}>SOCCER GOODS</p>
+        <p style={{fontSize:10,color:'rgba(255,255,255,0.4)',letterSpacing:'0.15em',marginBottom:12}}>BASKET GOODS</p>
         <div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:8,marginBottom:8}}>
           <a href="https://www.amazon.co.jp/s?k=%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%20%E3%82%B5%E3%83%83%E3%82%AB%E3%83%BC%20%E3%82%B9%E3%83%91%E3%82%A4%E3%82%AF&tag=haircolorab22-22"
             target="_blank" rel="noopener noreferrer sponsored"
@@ -349,7 +349,7 @@ export default function ShoesPage() {
             style={{padding:'14px 8px',borderRadius:12,background:'#111',
               border:'1px solid rgba(255,180,0,0.3)',textDecoration:'none',textAlign:'center',display:'block'}}>
             <span style={{fontSize:28,display:'block',marginBottom:4}}>⚽</span>
-            <p style={{fontSize:11,color:'white',fontWeight:700,marginBottom:2}}>サッカーボール</p>
+            <p style={{fontSize:11,color:'white',fontWeight:700,marginBottom:2}}>バスケットボールボール</p>
             <p style={{fontSize:9,color:'#FF9900'}}>Amazonで探す</p>
           </a>
           <a href="https://www.amazon.co.jp/s?k=%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%20%E3%82%B5%E3%83%83%E3%82%AB%E3%83%BC%20%E3%83%A6%E3%83%8B%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0%20%E4%B8%8A%E4%B8%8B%E3%82%BB%E3%83%83%E3%83%88&tag=haircolorab22-22"

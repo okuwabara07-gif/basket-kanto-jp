@@ -136,7 +136,7 @@ export default function BodyCheckPage() {
         {/* ヒーロー画像 */}
         <div style={{position:'relative',height:180,overflow:'hidden'}}>
           <img src="https://images.unsplash.com/photo-1551280857-2b9bbe52acf9?w=800&q=80"
-            alt="サッカー少年の体格測定" style={{width:'100%',height:'100%',objectFit:'cover',objectPosition:'center 30%'}}/>
+            alt="バスケットボール少年の体格測定" style={{width:'100%',height:'100%',objectFit:'cover',objectPosition:'center 30%'}}/>
           <div style={{position:'absolute',inset:0,background:'linear-gradient(to bottom,rgba(0,0,0,0.2),rgba(10,10,10,0.9))'}}>
             <div style={{position:'absolute',bottom:16,left:16,right:16}}>
               <Link href="/" style={{color:'rgba(255,255,255,0.5)',fontSize:12,textDecoration:'none',display:'block',marginBottom:6}}>← 戻る</Link>

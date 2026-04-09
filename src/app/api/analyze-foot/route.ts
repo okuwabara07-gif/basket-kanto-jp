@@ -89,7 +89,7 @@ const BRAND_CATALOG: Record<string, {
       { name: 'レビュラ 3 SELECT Jr', priceMin: 9900, priceMax: 14300, feature: '天然芝向け高級モデル' },
       { name: 'モナルシーダ NEO II ELITE AS', priceMin: 12100, priceMax: 18700, feature: '人工芝軽量モデル' },
     ],
-    amazonUrl: `https://www.amazon.co.jp/s?k=ミズノ+サッカースパイク+ジュニア&tag=${AMAZON_TAG}`,
+    amazonUrl: `https://www.amazon.co.jp/s?k=ミズノ+バスケットボールスパイク+ジュニア&tag=${AMAZON_TAG}`,
     rakutenUrl: `https://hb.afl.rakuten.co.jp/hgc/${RAKUTEN_ID}/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%83%9F%E3%82%BA%E3%83%8E%E3%82%B5%E3%83%83%E3%82%AB%E3%83%BC%2F`
   },
   'Asics': {
@@ -100,7 +100,7 @@ const BRAND_CATALOG: Record<string, {
       { name: 'DS LIGHT WIDE Jr', priceMin: 8800, priceMax: 12100, feature: '幅広専用ワイドモデル' },
       { name: 'ULTREZZA AI Jr', priceMin: 11000, priceMax: 16500, feature: '軽量ハイパフォーマンス' },
     ],
-    amazonUrl: `https://www.amazon.co.jp/s?k=アシックス+サッカースパイク+ジュニア&tag=${AMAZON_TAG}`,
+    amazonUrl: `https://www.amazon.co.jp/s?k=アシックス+バスケットボールスパイク+ジュニア&tag=${AMAZON_TAG}`,
     rakutenUrl: `https://hb.afl.rakuten.co.jp/hgc/${RAKUTEN_ID}/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%82%A2%E3%82%B7%E3%83%83%E3%82%AF%E3%82%B9%E3%82%B5%E3%83%83%E3%82%AB%E3%83%BC%2F`
   },
   'Nike': {
@@ -111,7 +111,7 @@ const BRAND_CATALOG: Record<string, {
       { name: 'ファントム GX CLUB Jr', priceMin: 8800, priceMax: 13200, feature: 'テクニカル操作性重視' },
       { name: 'マーキュリアル VAPOR 15 CLUB Jr', priceMin: 9900, priceMax: 15400, feature: '最軽量スピードモデル' },
     ],
-    amazonUrl: `https://www.amazon.co.jp/s?k=ナイキ+サッカースパイク+ジュニア&tag=${AMAZON_TAG}`,
+    amazonUrl: `https://www.amazon.co.jp/s?k=ナイキ+バスケットボールスパイク+ジュニア&tag=${AMAZON_TAG}`,
     rakutenUrl: `https://hb.afl.rakuten.co.jp/hgc/${RAKUTEN_ID}/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%83%8A%E3%82%A4%E3%82%AD%E3%82%B5%E3%83%83%E3%82%AB%E3%83%BC%2F`
   },
   'Adidas': {
@@ -122,7 +122,7 @@ const BRAND_CATALOG: Record<string, {
       { name: 'コパ PURE.4 FxG Jr', priceMin: 11000, priceMax: 16500, feature: '天然皮革フィット感' },
       { name: 'X SPEEDPORTAL.4 Jr', priceMin: 9900, priceMax: 14300, feature: 'スピード×軽量' },
     ],
-    amazonUrl: `https://www.amazon.co.jp/s?k=アディダス+サッカースパイク+ジュニア&tag=${AMAZON_TAG}`,
+    amazonUrl: `https://www.amazon.co.jp/s?k=アディダス+バスケットボールスパイク+ジュニア&tag=${AMAZON_TAG}`,
     rakutenUrl: `https://hb.afl.rakuten.co.jp/hgc/${RAKUTEN_ID}/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%82%A2%E3%83%87%E3%82%A3%E3%83%80%E3%82%B9%E3%82%B5%E3%83%83%E3%82%AB%E3%83%BC%2F`
   },
   'Puma': {
@@ -133,7 +133,7 @@ const BRAND_CATALOG: Record<string, {
       { name: 'キング PRO FG/AG Jr', priceMin: 11000, priceMax: 16500, feature: '天然皮革クラシックモデル' },
       { name: 'ウルトラ ULTIMATE FG/AG Jr', priceMin: 12100, priceMax: 17600, feature: '超軽量スピードモデル' },
     ],
-    amazonUrl: `https://www.amazon.co.jp/s?k=プーマ+サッカースパイク+ジュニア&tag=${AMAZON_TAG}`,
+    amazonUrl: `https://www.amazon.co.jp/s?k=プーマ+バスケットボールスパイク+ジュニア&tag=${AMAZON_TAG}`,
     rakutenUrl: `https://hb.afl.rakuten.co.jp/hgc/${RAKUTEN_ID}/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%83%97%E3%83%BC%E3%83%9E%E3%82%B5%E3%83%83%E3%82%AB%E3%83%BC%2F`
   },
   'New Balance': {
@@ -144,7 +144,7 @@ const BRAND_CATALOG: Record<string, {
       { name: 'テキスタ V3 Jr', priceMin: 7700, priceMax: 11000, feature: '軽量×幅広対応' },
       { name: 'アキュラ V3 Jr', priceMin: 11000, priceMax: 16500, feature: 'ハイエンド幅広モデル' },
     ],
-    amazonUrl: `https://www.amazon.co.jp/s?k=ニューバランス+サッカースパイク+ジュニア&tag=${AMAZON_TAG}`,
+    amazonUrl: `https://www.amazon.co.jp/s?k=ニューバランス+バスケットボールスパイク+ジュニア&tag=${AMAZON_TAG}`,
     rakutenUrl: `https://hb.afl.rakuten.co.jp/hgc/${RAKUTEN_ID}/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%90%E3%83%A9%E3%83%B3%E3%82%B9%E3%82%B5%E3%83%83%E3%82%AB%E3%83%BC%2F`
   },
 }

@@ -112,7 +112,7 @@ export default function FootCameraPage() {
       ctx.fillText(reason, 20, img.height*0.78)
       ctx.fillStyle = 'rgba(255,255,255,0.35)'
       ctx.font = '16px sans-serif'
-      ctx.fillText('soccer-tokyo-jp.vercel.app', img.width-300, img.height-18)
+      ctx.fillText('basket-tokyo-jp.vercel.app', img.width-300, img.height-18)
       const link = document.createElement('a')
       link.download = 'foot-diagnosis.png'
       link.href = canvas.toDataURL('image/png')
@@ -123,7 +123,7 @@ export default function FootCameraPage() {
 
   const share = () => {
     if (!result) return
-    const text = `AI足型診断：${(result.footType||[]).join('・')} → ${(result.recommend||[]).join('/')}がおすすめ！ https://soccer-tokyo-jp.vercel.app/foot-camera`
+    const text = `AI足型診断：${(result.footType||[]).join('・')} → ${(result.recommend||[]).join('/')}がおすすめ！ https://basket-tokyo-jp.vercel.app/foot-camera`
     if (navigator.share) navigator.share({ title: 'AI足型診断結果', text })
     else { navigator.clipboard.writeText(text); alert('コピーしました！') }
   }

@@ -11,19 +11,19 @@ const supabase = createClient(
 const QUESTIONS = [
   {
     id: 'goal',
-    title: 'お子さんのサッカーの目標は？',
+    title: 'お子さんのバスケットボールの目標は？',
     emoji: '🎯',
     image: 'https://images.unsplash.com/photo-1606925797300-0b35e9d1794e?w=600&q=80',
     options: [
       { value: 'pro', label: 'プロ・Jリーグを目指したい', icon: '⭐' },
       { value: 'selection', label: 'セレクションに合格したい', icon: '🏆' },
-      { value: 'enjoy', label: 'サッカーを楽しみたい', icon: '😊' },
+      { value: 'enjoy', label: 'バスケットボールを楽しみたい', icon: '😊' },
       { value: 'health', label: '健康・友達づくりが目的', icon: '👫' },
     ]
   },
   {
     id: 'level',
-    title: '現在のサッカー経験は？',
+    title: '現在のバスケットボール経験は？',
     emoji: '📊',
     image: 'https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&q=80',
     options: [

@@ -83,7 +83,7 @@ export default function FootCheckPage() {
   const reset = () => { setStep(1); setWidth(''); setHeight(''); setArch(''); setFootLength(''); setResult(null) }
 
   const share = () => {
-    const text = `足型診断結果：${width === 'wide' ? '幅広' : width === 'narrow' ? '細め' : '普通'}×${height === 'high' ? '甲高' : '甲低'} → おすすめは${result?.recommend?.join('・')}！ https://soccer-tokyo-jp.vercel.app/foot-check`
+    const text = `足型診断結果：${width === 'wide' ? '幅広' : width === 'narrow' ? '細め' : '普通'}×${height === 'high' ? '甲高' : '甲低'} → おすすめは${result?.recommend?.join('・')}！ https://basket-tokyo-jp.vercel.app/foot-check`
     if (navigator.share) navigator.share({ title: '足型診断', text })
     else { navigator.clipboard.writeText(text); alert('コピーしました！') }
   }

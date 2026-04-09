@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-const SOCCER_MANGA = [
+const BASKET_MANGA = [
   {
     rank: 1,
     title: 'ブルーロック',
@@ -19,7 +19,7 @@ const SOCCER_MANGA = [
     author: '小林有吾',
     volumes: 36,
     position: 'MF・戦術眼',
-    desc: 'Jリーグユースを舞台に戦術眼が成長する物語。賢いサッカーを学べる。',
+    desc: 'Jリーグユースを舞台に戦術眼が成長する物語。賢いバスケットボールを学べる。',
     learn: '戦術理解・ポジショニング・チームプレー',
     color: '#2b9348',
     amazon: 'https://www.amazon.co.jp/s?k=アオアシ+漫画&tag=haircolorab22-22',
@@ -31,7 +31,7 @@ const SOCCER_MANGA = [
     author: '高橋陽一',
     volumes: 37,
     position: '全ポジション',
-    desc: 'サッカー漫画の原点。夢を持つことの大切さを伝える不朽の名作。',
+    desc: 'バスケットボール漫画の原点。夢を持つことの大切さを伝える不朽の名作。',
     learn: '夢・情熱・諦めない心',
     color: '#023e8a',
     amazon: 'https://www.amazon.co.jp/s?k=キャプテン翼+漫画&tag=haircolorab22-22',
@@ -43,7 +43,7 @@ const SOCCER_MANGA = [
     author: '大島司',
     volumes: 32,
     position: 'DF・チームワーク',
-    desc: '仲間との絆・チームワークの大切さを描く感動の青春サッカー漫画。',
+    desc: '仲間との絆・チームワークの大切さを描く感動の青春バスケットボール漫画。',
     learn: 'チームワーク・友情・粘り強さ',
     color: '#e85d04',
     amazon: 'https://www.amazon.co.jp/s?k=シュート+漫画+大島司&tag=haircolorab22-22',
@@ -71,14 +71,14 @@ export default function MangaPage() {
       <div style={{padding:'16px',borderBottom:'1px solid rgba(255,255,255,0.08)',
         display:'flex',alignItems:'center',gap:12}}>
         <Link href="/" style={{color:'rgba(255,255,255,0.5)',fontSize:13,textDecoration:'none'}}>← トップ</Link>
-        <p style={{color:'white',fontSize:14,fontWeight:700}}>サッカー漫画ランキング</p>
+        <p style={{color:'white',fontSize:14,fontWeight:700}}>バスケットボール漫画ランキング</p>
       </div>
 
       {/* タイトル */}
       <div style={{padding:'24px 16px 16px'}}>
         <p style={{color:'rgba(255,255,255,0.5)',fontSize:10,letterSpacing:'0.15em',marginBottom:6}}>MANGA RANKING</p>
         <h1 style={{color:'white',fontSize:22,fontWeight:700,lineHeight:1.3,marginBottom:8}}>
-          サッカー少年に<br/>読ませたい漫画 TOP5
+          バスケットボール少年に<br/>読ませたい漫画 TOP5
         </h1>
         <p style={{color:'rgba(255,255,255,0.6)',fontSize:13,lineHeight:1.7}}>
           現役コーチ・保護者500人のアンケートをもとに選出。
@@ -98,7 +98,7 @@ export default function MangaPage() {
 
       {/* ランキング */}
       <div style={{padding:'0 16px'}}>
-        {SOCCER_MANGA.map((manga) => (
+        {BASKET_MANGA.map((manga) => (
           <div key={manga.rank} style={{marginBottom:16,borderRadius:16,overflow:'hidden',
             border:`1px solid ${manga.color}30`,background:'#111'}}>
 

@@ -253,12 +253,12 @@ export default function RulesPage() {
         {/* ヒーロー */}
         <div style={{position:'relative',height:180,overflow:'hidden'}}>
           <img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=800&q=80"
-            alt="サッカー審判" style={{width:'100%',height:'100%',objectFit:'cover',objectPosition:'center 40%'}}/>
+            alt="バスケットボール審判" style={{width:'100%',height:'100%',objectFit:'cover',objectPosition:'center 40%'}}/>
           <div style={{position:'absolute',inset:0,background:'linear-gradient(to bottom,rgba(0,0,0,0.1),rgba(10,10,10,0.95))'}}>
             <div style={{position:'absolute',bottom:14,left:16,right:16}}>
               <Link href="/" style={{color:'rgba(255,255,255,0.5)',fontSize:12,textDecoration:'none',display:'block',marginBottom:4}}>← 戻る</Link>
               <h1 style={{color:'white',fontSize:20,fontWeight:300,marginBottom:2}}>新ルール＆用語検索</h1>
-              <p style={{color:'rgba(255,255,255,0.5)',fontSize:10}}>最新ルール変更・サッカー用語辞典・AIに質問</p>
+              <p style={{color:'rgba(255,255,255,0.5)',fontSize:10}}>最新ルール変更・バスケットボール用語辞典・AIに質問</p>
             </div>
           </div>
         </div>

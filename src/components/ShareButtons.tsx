@@ -6,7 +6,7 @@ type Props = {
   url?: string
 }
 
-export default function ShareButtons({ title, text, url = 'https://soccer-tokyo-jp.vercel.app' }: Props) {
+export default function ShareButtons({ title, text, url = 'https://basket-tokyo-jp.vercel.app' }: Props) {
   const encodedText = encodeURIComponent(text)
   const encodedUrl = encodeURIComponent(url)
 

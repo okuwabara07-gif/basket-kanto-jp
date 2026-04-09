@@ -377,7 +377,7 @@ export default function TeamsPage() {
           <div style={{background:'#0a0f1e',borderRadius:12,padding:'16px'}}>
             <p style={{fontSize:10,color:'#7ab3ff',letterSpacing:'0.1em',marginBottom:10}}>RECOMMENDED</p>
             <div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:8,marginBottom:8}}>
-              <a href={`https://www.amazon.co.jp/s?k=サッカースパイク+ジュニア&tag=haircolorab22-22`}
+              <a href={`https://www.amazon.co.jp/s?k=バスケットボールスパイク+ジュニア&tag=haircolorab22-22`}
                 target="_blank" rel="noopener noreferrer sponsored"
                 style={{display:'flex',alignItems:'center',gap:6,padding:'10px',borderRadius:8,
                   background:'rgba(255,153,0,0.1)',border:'1px solid rgba(255,153,0,0.2)',textDecoration:'none'}}>

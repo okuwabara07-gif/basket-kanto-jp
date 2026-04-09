@@ -19,7 +19,7 @@ export async function POST(req: NextRequest) {
         max_tokens: 800,
         messages: [{
           role: 'user',
-          content: `あなたはジュニアサッカーチーム選びのアドバイザーです。
+          content: `あなたはジュニアバスケットボールチーム選びのアドバイザーです。
 保護者の希望条件とチームリストをもとに、最適なチームを3つ選んでJSONで返してください。
 
 保護者の希望: ${answerText}

@@ -15,7 +15,7 @@ export async function POST(req: NextRequest) {
         max_tokens: 300,
         messages: [{
           role: 'user',
-          content: `ジュニアサッカー選手の体格診断コメントを80文字以内で書いてください。身長${height}cm・体重${weight}kg・${grade}・BMI${bmi}・判定:${status}。前向きなアドバイスを1つ含めてください。`
+          content: `ジュニアバスケットボール選手の体格診断コメントを80文字以内で書いてください。身長${height}cm・体重${weight}kg・${grade}・BMI${bmi}・判定:${status}。前向きなアドバイスを1つ含めてください。`
         }]
       })
     })
